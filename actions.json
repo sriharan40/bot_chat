@@ -1,0 +1,289 @@
+{
+  "data" : [
+    {
+      "type" : "template"
+    },
+    {
+      "id" : "function-",
+      "type" : "function",
+      "name" : ""
+    },
+    {
+      "id" : "function-",
+      "type" : "function",
+      "name" : ""
+    },
+    {
+      "id" : "template-Dear {contact} I will validate your number i.e.{phone_number} in our system now.",
+      "type" : "template",
+      "template" : "Dear {contact} I will validate your number i.e.{phone_number} in our system now.",
+      "requirements" : [
+        {
+          "name" : "contact",
+          "negative" : false
+        },
+        {
+          "name" : "phone_number",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Dear {contact}I will validate your number i.e.{phone_number} in our system now.",
+      "type" : "template",
+      "template" : "Dear {contact}I will validate your number i.e.{phone_number} in our system now.",
+      "requirements" : [
+        {
+          "name" : "contact",
+          "negative" : false
+        },
+        {
+          "name" : "phone_number",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Dear {customername} I will validate your number i.e.{phone_number} in our system now.",
+      "type" : "template",
+      "template" : "Dear {customername} I will validate your number i.e.{phone_number} in our system now.",
+      "requirements" : [
+        {
+          "name" : "customername",
+          "negative" : false
+        },
+        {
+          "name" : "phone_number",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Hello, I am hitman. May I know your phone number and name to assist you futher?",
+      "type" : "template",
+      "template" : "Hello, I am hitman. May I know your phone number and name to assist you futher?"
+    },
+    {
+      "id" : "template-Hello. May I know your name and number to address you correctly?",
+      "type" : "template",
+      "template" : "Hello. May I know your name and number to address you correctly?"
+    },
+    {
+      "id" : "template-Hello. May I know your name and phone number?",
+      "type" : "template",
+      "template" : "Hello. May I know your name and phone number?"
+    },
+    {
+      "id" : "template-Hello. May I know your phone number please?",
+      "type" : "template",
+      "template" : "Hello. May I know your phone number please?"
+    },
+    {
+      "id" : "template-Hello. May I know your phone number?",
+      "type" : "template",
+      "template" : "Hello. May I know your phone number?"
+    },
+    {
+      "id" : "template-How are you {contact}. I will validate your number i.e.{phone_number} in our system now.",
+      "type" : "template",
+      "template" : "How are you {contact}. I will validate your number i.e.{phone_number} in our system now.",
+      "requirements" : [
+        {
+          "name" : "contact",
+          "negative" : false
+        },
+        {
+          "name" : "phone_number",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-I will validate your number i.e.{phone_number} in our system now.",
+      "type" : "template",
+      "template" : "I will validate your number i.e.{phone_number} in our system now.",
+      "requirements" : [
+        {
+          "name" : "phone_number",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-So your number is {phone_number}",
+      "type" : "template",
+      "template" : "So your number is {phone_number}",
+      "requirements" : [
+        {
+          "name" : "phone_number",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Thanks {wit/contact}, I will validate your number {wit/phone_number}",
+      "type" : "template",
+      "template" : "Thanks {wit/contact}, I will validate your number {wit/phone_number}",
+      "requirements" : [
+        {
+          "name" : "wit/contact",
+          "negative" : false
+        },
+        {
+          "name" : "wit/phone_number",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Thanks, So your number is ",
+      "type" : "template",
+      "template" : "Thanks, So your number is "
+    },
+    {
+      "id" : "template-Thanks, So your number is wit/phone_number",
+      "type" : "template",
+      "template" : "Thanks, So your number is wit/phone_number"
+    },
+    {
+      "id" : "template-Thanks, So your number is {wit/phone_number} ",
+      "type" : "template",
+      "template" : "Thanks, So your number is {wit/phone_number} ",
+      "requirements" : [
+        {
+          "name" : "wit/phone_number",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Welcome Sir. How are you.",
+      "type" : "template",
+      "template" : "Welcome Sir. How are you."
+    },
+    {
+      "id" : "template-Welcome [CustName] Sir. How are you.",
+      "type" : "template",
+      "template" : "Welcome [CustName] Sir. How are you."
+    },
+    {
+      "id" : "template-Welcome {CustName}Sir. How are you.",
+      "type" : "template",
+      "template" : "Welcome {CustName}Sir. How are you.",
+      "requirements" : [
+        {
+          "name" : "CustName",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Welcome {wit/contact}",
+      "type" : "template",
+      "template" : "Welcome {wit/contact}",
+      "requirements" : [
+        {
+          "name" : "wit/contact",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Welcome {wit/contact} How are you.",
+      "type" : "template",
+      "template" : "Welcome {wit/contact} How are you.",
+      "requirements" : [
+        {
+          "name" : "wit/contact",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-Welcome {}CustName}Sir. How are you.",
+      "type" : "template",
+      "template" : "Welcome {}CustName}Sir. How are you."
+    },
+    {
+      "id" : "template-Welcome. How are you.",
+      "type" : "template",
+      "template" : "Welcome. How are you."
+    },
+    {
+      "id" : "template-checkNumber",
+      "type" : "template",
+      "template" : "checkNumber"
+    },
+    {
+      "id" : "template-wit/phone_number",
+      "type" : "template",
+      "template" : "wit/phone_number"
+    },
+    {
+      "id" : "template-{CustName=wit/phone_number}Thanks, So your number is ",
+      "type" : "template",
+      "template" : "{CustName=wit/phone_number}Thanks, So your number is ",
+      "requirements" : [
+        {
+          "name" : "CustName=wit/phone_number",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-{checkNumber}",
+      "type" : "template",
+      "template" : "{checkNumber}",
+      "requirements" : [
+        {
+          "name" : "checkNumber",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-{wit/contact}, hope you are good.",
+      "type" : "template",
+      "template" : "{wit/contact}, hope you are good.",
+      "requirements" : [
+        {
+          "name" : "wit/contact",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-{wit/phone_number}",
+      "type" : "template",
+      "template" : "{wit/phone_number}",
+      "requirements" : [
+        {
+          "name" : "wit/phone_number",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-{wit/phone_number}Thanks, So your number is ",
+      "type" : "template",
+      "template" : "{wit/phone_number}Thanks, So your number is ",
+      "requirements" : [
+        {
+          "name" : "wit/phone_number",
+          "negative" : false
+        }
+      ]
+    },
+    {
+      "id" : "template-{wit_number}, hope you are good.",
+      "type" : "template",
+      "template" : "{wit_number}, hope you are good.",
+      "requirements" : [
+        {
+          "name" : "wit_number",
+          "negative" : false
+        }
+      ]
+    }
+  ]
+}

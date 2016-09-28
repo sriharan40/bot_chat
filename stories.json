@@ -1,0 +1,59 @@
+{
+  "data" : [
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "Hello",
+          "entities" : [
+            {
+              "entity" : "introduction",
+              "value" : "\"Hi\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : "template-Hello. May I know your name and phone number?"
+            }
+          ]
+        },
+        {
+          "user" : "My name is Harry and my number is +639178294450",
+          "entities" : [
+            {
+              "entity" : "customername",
+              "value" : "\"Harry \"",
+              "start" : 11,
+              "end" : 17
+            },
+            {
+              "entity" : "phone_number",
+              "value" : "\"639178294450\"",
+              "start" : 35,
+              "end" : 47
+            }
+          ],
+          "operations" : [
+            {
+              "branches" : [
+                {
+                  "predicates" : [
+                    {
+                      "name" : "customername,phone_number",
+                      "negative" : false
+                    }
+                  ],
+                  "operations" : [
+                    {
+                      "action" : "template-Dear {customername} I will validate your number i.e.{phone_number} in our system now."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
