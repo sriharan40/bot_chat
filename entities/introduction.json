@@ -1,0 +1,35 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords",
+      "trait"
+    ],
+    "name" : "introduction",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "introduction",
+    "values" : [
+      {
+        "value" : "Hello"
+      },
+      {
+        "value" : "Hey"
+      },
+      {
+        "value" : "Hi"
+      },
+      {
+        "value" : "Hola"
+      },
+      {
+        "value" : "Whats Up",
+        "expressions" : [
+          "Whats "
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}

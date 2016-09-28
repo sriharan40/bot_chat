@@ -1,0 +1,13 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text"
+    ],
+    "name" : "phone_number",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "phone_number",
+    "doc" : "Phone numbers (does not try to check the validity of the number).",
+    "builtin" : true
+  }
+}

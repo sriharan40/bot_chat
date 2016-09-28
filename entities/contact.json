@@ -1,0 +1,13 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text"
+    ],
+    "name" : "contact",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "contact",
+    "doc" : "{\"spanless\":false,\"short_desc\":\"reference to a person\",\"long_desc\":\"Captures free text that's either the name or a clear reference to a person, like `Paul`, `Paul Smith`, `my husband`, `the dentist`.\",\"examples\":[{\"expression\":[\"call\",\"my wife\",\"\"],\"response\":\"\\\"entities\\\" : {\\n      \\\"contact\\\" : [ {\\n        \\\"value\\\" : \\\"my wife\\\"\\n      } ]\\n    }\",\"$$hashKey\":\"06U\"},{\"expression\":[\"contact\",\"Alex\",\"please\"],\"response\":\"\\\"entities\\\" : {\\n      \\\"contact\\\" : [ {\\n        \\\"value\\\" : \\\"Alex\\\"\\n      } ]\\n    }\",\"$$hashKey\":\"081\"}],\"similar_wisps\":[{\"name\":\"\",\"$$hashKey\":\"06W\"}]}",
+    "builtin" : true
+  }
+}
