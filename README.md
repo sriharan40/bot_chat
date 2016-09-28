@@ -136,10 +136,7 @@ curl -X POST "https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=<P
 ### Jest
  ```bash
  npm test
- ```
-
- ## EAACXZB4I0ilMBACQTXmF577KtQ2g6wuyXc19XFbYuFSwMf7xEnLzKcQymWdt1fqbzRyAj2KAF7P9jDaIVHYm8L8CfWuRceTA4byHLgPDqHCxB5Ct24ZAdK34RVZBAmPqdZBmQDeBezgsTcjdJCMvYbRrnvWdnMZBUKoqye42CRQZDZD
- 
+ ``` 
 ### Bot testing
  ```bash
  $WIT_TOKEN=ALDWUNJUEN3LSK327C53BS76LLHKENT2 node bot
