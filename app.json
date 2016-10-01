@@ -1,8 +1,29 @@
 {
-  "version" : 20160513,
-  "zip-command" : "zip My First App.zip My First App/app.json My First App/entities/*.json My First App/actions.json My First App/stories.json My First App/expressions.json",
-  "data" : {
-    "name" : "My First App",
-    "lang" : "en"
+  "name": "API.AI Facebook integration",
+  "description": "Api.ai Facebook integration allows you to create Facebook bots with natural language understanding based on Api.ai technology.",
+  "repository": "https://github.com/api-ai/api-ai-facebook",
+  "logo": "http://xvir.github.io/img/apiai.png",
+  "keywords": ["api.ai", "facebook", "natural language"],
+  "env": {
+    "APIAI_ACCESS_TOKEN": {
+      "description": "Client access token for Api.ai",
+      "value": "c743619629b2490fab9751dac552094a"
+    },
+    "FB_VERIFY_TOKEN": {
+      "description": "Verification code",
+      "value": "hitman507"
+    },
+    "FB_PAGE_ACCESS_TOKEN": {
+      "description": "Page Access Token",
+      "value": "EAAEcEkKVmnIBAHQeI6pvZAm05RUImZCOW5GClG7ucCikqNT6IZCRS7VbmKl2cDDpc0IcYzPmUftI5WfPx9SZAHuDpEUKHXVPbJWq876ToYnfedfiPO4QrVfELptGmS86tRDVUlTtnVoUY97uyPhIlbgHkh9dLJj8Knf6pRZAhiwZDZD"
+    },
+    "APIAI_LANG": {
+      "description": "Agent language",
+      "value": "en",
+      "required": false
+    }
+  },
+  "engines": {
+    "node": "5.10.1"
   }
 }

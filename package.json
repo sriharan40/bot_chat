@@ -1,37 +1,26 @@
 {
-  "name": "Wit-Facebook",
+  "name": "api-ai-facebook",
   "version": "1.0.0",
-  "description": "Simple Wit-Facebook",
-  "main": "index.js",
+  "description": "API.AI Facebook Bot",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node index.js",
-    "bot": "node bot.js",
-    "test": "jest"
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT",
-  "jest": {
-    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
-    "unmockedModulePathPatterns": ["core-js/.*", "sshpk/.*"]
-  },
+  "author": "Danil Skachkov <danil.skachkov@speaktoit.com> (https://api.ai)",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4",
-    "node-wit": "^3.2.2",
+    "apiai": "2.0.5",
+    "async": "^2.0.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.13.3",
+    "html-entities": "^1.2.0",
+    "json-bigint": "^0.2.0",
     "node-uuid": "^1.4.7",
-    "request": "^2.72.0",
-    "babel-core": "^6.0.0",
-    "babel-jest": "^6.0.1",
-    "babel-polyfill": "^6.1.4",
-    "bl": "^1.0.0",
-    "jest-cli": "^0.7.1"
+    "request": "^2.73.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hunkim/Wit-Facebook.git"
-  },
-  "bugs": {
-    "url": "https://github.com/hunkim/Wit-Facebook/issues"
-  },
-  "homepage": "https://github.com/hunkim/Wit-Facebook#readme"
+    "url": "https://github.com/api-ai/api-ai-facebook"
+  }
 }
