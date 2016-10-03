@@ -2,9 +2,9 @@
   "name": "api-ai-facebook",
   "version": "1.0.0",
   "description": "API.AI Facebook Bot",
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Danil Skachkov <danil.skachkov@speaktoit.com> (https://api.ai)",
